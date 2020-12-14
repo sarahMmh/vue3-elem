@@ -1,18 +1,17 @@
+
 <template>
-    <img
-        alt="Vue logo"
-        src="./assets/logo.png"
-    />
-    <HelloWorld msg="Hello Vue 3.0 + Vite" />
+    <!-- <router-view
+        style=""
+        title=""
+    ></router-view> -->
+    <div>启动了项目的首页</div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue';
-
-export default {
+<script lang="ts">
+// https://zhuanlan.zhihu.com/p/161308974
+import {defineComponent} from 'vue';
+export default defineComponent({
     name: 'App',
-    components: {
-        HelloWorld,
-    },
-};
+    components: {}
+});
 </script>
